@@ -50,7 +50,7 @@ const QID = {
   }
   document.body.innerHTML = currentid.toLowerCase();
 },
-numberid: function(idlength = 50){x 
+numberid: function(idlength = 50){
   let currentid = "";
   for (let i = 0; i < idlength; i++) {
     currentid = currentid + Math.floor(Math.random() * 10).toString(); //random digit 0-9
